@@ -20,8 +20,12 @@ body {
 nav {
     border: 1px solid #777;
     border-style: solid none solid none; 
+    position: sticky;
+    top: 0;
+    background: rgba(255,255,255,1.2);
+  }
 
-}
+
 
 nav ul {
     margin: auto;
@@ -77,4 +81,30 @@ main img{
   width: 44%;
   margin: 0 1em;
 }
+
+.yet-more-articles section {
+  display: inline-block;
+  width: 22%;
+  margin: 0 2em;
+}
     
+.yet-more-articles img {
+  display: inline-block;
+  width: 88%;
+  margin: 0 auto;
+
+}
+.bottom-container {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  background-color: #777;
+  font-family: 'Abril Fatface'
+}
+
+.bottom-container a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 85px;
+}
